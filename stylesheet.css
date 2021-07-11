@@ -1,7 +1,68 @@
-body
-    {
-        font-size: 16px;
-        color: #fff;
-        background-color: #61122f;
-        font-family: 'Oxygen', sans-serif;
-    }
+
+body 
+{
+    font-size: 16px;
+    color: black;
+    background-color: whitesmoke;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.navbar-header
+{
+    position: relative;
+}
+
+h5
+{
+    text-align: center;
+}
+
+#header-nav
+{
+    background-color: whitesmoke;
+}
+
+#header-nav h3
+{
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav .collapse
+{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#collapsable-nav ul
+{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#collapsable-nav ul li
+{
+    border-bottom: 1px solid black;
+    margin-bottom: 2px;
+}
+
+#collapsable-nav ul li a
+{
+    font-size: 20px;
+    color: black;
+}
+
+#main-content-title
+{
+    font-size: 24px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#main-section
+{
+    background-color: gray;
+    padding:1%;
+    border-top: 5px solid black;
+    border-right: 5px solid black;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}
